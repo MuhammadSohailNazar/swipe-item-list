@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Boxicons JS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Swipe Item List!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="item swipe"
+        ontouchstart="handleStart(event)"
+        ontouchmove="handleTouchMove(event)"
+        ontouchend="handleEnd=(event)"
+      >
+        <button class="config">
+          <div class="con-icon">
+            <i class="bx bx-cog"></i>
+          </div>
+        </button>
+        <div class="con-text">
+          <h3>Landing page design</h3>
+          <p>Create a landing page with the theme of the dark series</p>
+        </div>
+
+        <button class="remove">
+          <div class="con-icon">
+            <i class="bx bxs-trash"></i>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div
+        class="item swipe"
+        ontouchstart="handleStart(event)"
+        ontouchmove="handleTouchMove(event)"
+        ontouchend="handleEnd=(event)"
+      >
+        <button class="config">
+          <div class="con-icon">
+            <i class="bx bx-cog"></i>
+          </div>
+        </button>
+        <div class="con-text">
+          <h3>Create Travel App</h3>
+          <p>Flight, Hotel, Car, and Tour booking portal.</p>
+        </div>
+
+        <button class="remove">
+          <div class="con-icon">
+            <i class="bx bxs-trash"></i>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div
+        class="item swipe"
+        ontouchstart="handleStart(event)"
+        ontouchmove="handleTouchMove(event)"
+        ontouchend="handleEnd=(event)"
+      >
+        <button class="config">
+          <div class="con-icon">
+            <i class="bx bx-cog"></i>
+          </div>
+        </button>
+        <div class="con-text">
+          <h3>Learn Html, CSS</h3>
+          <p>Learn Html, CSS with msn</p>
+        </div>
+
+        <button class="remove">
+          <div class="con-icon">
+            <i class="bx bxs-trash"></i>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
